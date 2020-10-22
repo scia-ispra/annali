@@ -1,2 +1,3 @@
-# annali
-Script per elaborare gli Annali dell'Ex Servizio Idrografico e Mareografico Nazionale
+# Annali ex SIMN
+
+Script per elaborare gli Annali dell'Ex Servizio Idrografico e Mareografico Nazionale mediante tesseract e R.
