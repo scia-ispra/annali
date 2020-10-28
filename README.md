@@ -1,4 +1,4 @@
-# Annali ex SIMN
+## Dati Annali & Centro Funzionale Multirischi
 
 Dalla pagina web del [Centro Funzionale Multirischi](http://centrofunzionale.regione.campania.it/#/pages/documenti/annali) e' possibile scaricare gli Annali dell'ex SIMN. Si tratta di file immagini che quindi vanno elaborati mediante OCR per acquisire i dati
 
