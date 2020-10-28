@@ -24,21 +24,29 @@ Le stazioni qui di seguito elencate sono disponibili sia nell'interfaccia dati d
 | Bella | x | Con Bella S. Antonio Casalini? |
 | Benevento (Genio Civile) | --- | Con Benevento (?) |
 | Capaccio | x| x |
+| Caposele (Acquedotto Pugliese) | --- | Con Caposele? |
 | Cassano Irpino | --- | x |
 | Castelfranco in Miscano | --- | x |
+| Castelluccio Cosentino| --- | Con Castelluccio? |
 | Colle Sannita | --- | x |
+| Contursi | --- | Con Contursi meteo? |
 | Cusano Mutri | --- | x |
 | Ercolano | x | x |
 | Forlì del Sannio| --- | x |
+| Gioi Cilento | --- | x |
 | Grazzanise | --- | x |
 | Isernia (Genio Civile) | --- | Con Isernia (?) |
 | Letino | --- | x |
 | Lugosano | --- | x |
 | Montella | x | x |
 | Montemarano | --- | x |
+| Montesano Terme | --- | x |
 | Morcone | --- | x |
 | Morigerati | x | x |
 | Paduli | --- | x |
+| Palma Campania | --- | x |
+| Positano | --- | x |
+| Ravello | --- | x |
 | Roccadaspide | --- | x |
 | Roccamonfina | --- | x |
 | Sala Consilina | x | x |
@@ -47,6 +55,7 @@ Le stazioni qui di seguito elencate sono disponibili sia nell'interfaccia dati d
 | S. Angelo d'Alife | --- | x |
 | San Mauro Cilento | Con San Mauro? | Con San Mauro? |
 | San Pietro Avellana (Feudozzo) | Ricontrollare | Con San Pietro (?) |
+| Senerchia | --- | x |
 | Sora | x | x |
 | Torraca | --- | x |
 | Torchiara | --- | x |
@@ -64,22 +73,6 @@ Le stazioni qui di seguito elencate sono disponibili sia nell'interfaccia dati d
 
 
 
-
-
-| Palma Campania | --- | x |
-| Positano | --- | x |
-
-| Ravello | --- | x |
-
-| Caposele (Acquedotto Pugliese) | --- | Con Caposele? |
-| Senerchia | --- | x |
-| Contursi | --- | Con Contursi meteo? |
-| Montesano Terme | --- | x |
-
-| Castelluccio Cosentino| --- | Con Castelluccio? |
-
-
-| Gioi Cilento | --- | x |
 
 
 
