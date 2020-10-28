@@ -15,53 +15,72 @@ Le stazioni qui di seguito elencate sono disponibili sia nell'interfaccia dati d
 
 | Nome stazione | Temperatura | Precipitazione |
 | --- | --- | --- |
-| Sora | x | x |
-| Roccamonfina | --- | x |
-| Montella | x | x |
-| Ercolano | x | x |
+| Agerola | --- | Con Agerola-meteo1/meteo2 |
+| Altavilla Irpina | --- | x |
+| Alvignano | --- | x |
+| Ariano Irpino | --- | x |
+| Avellino (Genio Civile) | ---| x |
 | Battipaglia | --- |x ||
-| Salerno | Si puo' associare a Salerno meteo1/meteo2? | Si puo' associare a Salerno meteo1/meteo2? |
-| Salerno (Pastena) | --- | Si puo' associare a Salerno meteo1/meteo2? |
-| Sala Consilina | x | x |
+| Bella | x | Con Bella S. Antonio Casalini? |
+| Benevento (Genio Civile) | --- | Con Benevento (?) |
 | Capaccio | x| x |
-| San Mauro Cilento | Con San Mauro? | Con San Mauro? |
-| Vallo della Lucania | x |
-| Vallo della Lucania | --- | Vallo della Lucania (Can.): ricontrollare la dicitura per la temperatura |
-| Morigerati | x | x |
+| Cassano Irpino | --- | x |
+| Castelfranco in Miscano | --- | x |
+| Colle Sannita | --- | x |
+| Cusano Mutri | --- | x |
+| Ercolano | x | x |
 | Forlì del Sannio| --- | x |
-| San Pietro Avellana (Feudozzo) | Ricontrollare | Con San Pietro (?) |
+| Grazzanise | --- | x |
 | Isernia (Genio Civile) | --- | Con Isernia (?) |
 | Letino | --- | x |
-| S. Angelo d'Alife | --- | x |
-| Cusano Mutri | --- | x |
-| Montemarano | --- | x |
-| Cassano Irpino | --- | x |
 | Lugosano | --- | x |
-| Ariano Irpino | --- | x |
-| Castelfranco in Miscano | --- | x |
+| Montella | x | x |
+| Montemarano | --- | x |
 | Morcone | --- | x |
-| Colle Sannita | --- | x |
+| Morigerati | x | x |
 | Paduli | --- | x |
-| Benevento (Genio Civile) | --- | Con Benevento (?) |
-| Avellino (Genio Civile) | ---| x |
-| Altavilla Irpina | --- | x |
-| Grazzanise | --- | x |
+| Roccadaspide | --- | x |
+| Roccamonfina | --- | x |
+| Sala Consilina | x | x |
+| Salerno | Si puo' associare a Salerno meteo1/meteo2? | Si puo' associare a Salerno meteo1/meteo2? |
+| Salerno (Pastena) | --- | Si puo' associare a Salerno meteo1/meteo2? |
+| S. Angelo d'Alife | --- | x |
+| San Mauro Cilento | Con San Mauro? | Con San Mauro? |
+| San Pietro Avellana (Feudozzo) | Ricontrollare | Con San Pietro (?) |
+| Sora | x | x |
+| Torraca | --- | x |
+| Torchiara | --- | x |
+| Tramonti | --- | x |
+| Vallo della Lucania | x |
+| Vallo della Lucania | --- | Vallo della Lucania (Can.): ricontrollare la dicitura per la temperatura |
+
+
+
+
+
+
+
+
+
+
+
+
+
 | Palma Campania | --- | x |
 | Positano | --- | x |
-| Agerola | --- | Con Agerola-meteo1/meteo2 |
+
 | Ravello | --- | x |
-| Tramonti | --- | x |
+
 | Caposele (Acquedotto Pugliese) | --- | Con Caposele? |
 | Senerchia | --- | x |
 | Contursi | --- | Con Contursi meteo? |
 | Montesano Terme | --- | x |
-| Alvignano | --- | x |
-| Bella | x | Con Bella S. Antonio Casalini? |
+
 | Castelluccio Cosentino| --- | Con Castelluccio? |
-| Roccadaspide | --- | x |
-| Torchiara | --- | x |
+
+
 | Gioi Cilento | --- | x |
-| Torraca | --- | x |
+
 
 
 
