@@ -1,0 +1,84 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Valori Termometrici</title>
+<script type="text/javascript" src="Valori%20Termometrici_files/ajax.js"></script> 
+<link rel="stylesheet" type="text/css" href="Valori%20Termometrici_files/table.css">
+<link rel="stylesheet" type="text/css" href="Valori%20Termometrici_files/bootstrap.css">
+
+</head>
+
+<body>
+<center>
+	   
+<div id="divframe" style="padding-top: 0 !important">
+
+<h4>Estrazione temperatura dell'aria (gradi celsius)</h4>
+
+
+
+<form action="" method="post" id="form" name="form">
+	
+Stazioni Termometriche: <select size="1" id="select_sensore" name="ID_Sensore" onchange="caricaAnno(this.value)">
+	 <option value="00" selected="selected">Stazione...</option> <option value="36423">Agerola METEO-1</option><option value="36435">Agerola METEO-2</option><option value="18387">Alife</option><option value="21743">Altavilla Irpina</option><option value="17260">Alvignano</option><option value="21771">Ariano Irpino</option><option value="36473">Ariano Irpino METEO-1</option><option value="36485">Ariano Irpino METEO-2</option><option value="12266">Auletta</option><option value="20890">Avellino-Genio Civile</option><option value="18401">Bagnoli Irpino</option><option value="17417">Battipaglia</option><option value="21726">Bella-S.Antonio Casalini</option><option value="12250">Benevento</option><option value="36448">Benevento METEO-1</option><option value="36460">Benevento METEO-2</option><option value="17263">Boiara</option><option value="12269">Boville Ernica</option><option value="36581">Capaccio</option><option value="18411">Caposele</option><option value="36577">Cassano Irpino</option><option value="21786">Castelfranco in Miscano</option><option value="12272">Castelluccio</option><option value="36303">Cellole METEO-1</option><option value="36316">Cellole METEO-2</option><option value="20898">Colle Sannita</option><option value="17256">Contursi Meteo</option><option value="36333">Conza della Campania METEO-1</option><option value="36346">Conza della Campania METEO-2</option><option value="36912">Costa dei Corvi</option><option value="20894">Cusano Mutri</option><option value="21761">Ercolano</option><option value="21437">Forli' del Sannio</option><option value="21441">Fornelli</option><option value="38534">Gioi Cilento</option><option value="12242">Grazzanise</option><option value="21449">Isernia</option><option value="40336">Lago Patria METEO-1</option><option value="40348">Lago Patria METEO-2</option><option value="37721">Letino</option><option value="20902">Luogosano</option><option value="17402">Melizzano</option><option value="17409">Mercato S.Severino</option><option value="36906">Moiano</option><option value="37292">Montecorvino Rovella</option><option value="12254">Montella</option><option value="37443">Montella METEO-1</option><option value="37455">Montella METEO-2</option><option value="12275">Montemarano</option><option value="36932">Montesano Marcellana METEO-1</option><option value="36945">Montesano Marcellana METEO-2</option><option value="38543">Montesano Terme</option><option value="37715">Morcone</option><option value="40112">Morigerati</option><option value="36127">Nisida METEO-1</option><option value="36218">Nisida METEO-2</option><option value="12262">Paduli</option><option value="37262">Palma Campania</option><option value="12246">Persano Sele</option><option value="20906">Pietrastornina</option><option value="38978">Pizzolano</option><option value="17267">Pompei</option><option value="21782">Pontelatone</option><option value="37718">Positano</option><option value="36546">Postiglione METEO-1</option><option value="36559">Postiglione METEO-2</option><option value="21757">Ravello</option><option value="38786">Rocca d'Evandro METEO-1</option><option value="38798">Rocca d'Evandro METEO-2</option><option value="36897">Roccadaspide</option><option value="22717">Roccamonfina</option><option value="37284">Rocchetta</option><option value="17273">S.Angelo d'Alife</option><option value="36240">S.Bartolomeo in Galdo METEO-1</option><option value="36256">S.Bartolomeo in Galdo METEO-2</option><option value="38662">S.Marco Evangelista METEO-1</option><option value="38674">S.Marco Evangelista METEO-2</option><option value="36900">S.Maria a Vico</option><option value="12295">S.Mauro</option><option value="38546">S.Mauro La Bruca</option><option value="12291">S.Pietro</option><option value="38590">S.Salvatore Telesino METEO-1</option><option value="38602">S.Salvatore Telesino METEO-2</option><option value="36909">Sala Consilina</option><option value="36398">Salerno METEO-1</option><option value="36410">Salerno METEO-2</option><option value="38497">Sanza</option><option value="12287">Senerchia</option><option value="21747">Serino</option><option value="21797">Sora</option><option value="18395">Sorgenti Grassano</option><option value="38531">Torchiara</option><option value="38549">Torraca</option><option value="36269">Torre Orsaia METEO-1</option><option value="36282">Torre Orsaia METEO-2</option><option value="15286">Torriello</option><option value="21736">Tramonti</option><option value="37295">Vallo della Lucania</option></select>
+	 	Anno: <select id="select_anno" size="1" name="Anno"><option value="2020" selected="selected">2020</option></select>
+<input type="Submit" value="Cerca">
+
+<div id="divtab"></div>
+
+</form>
+
+
+<script>
+	
+function init() 
+{
+    anno = "";
+    if(document.getElementById("select_sensore").value != null) {
+        sensore = document.getElementById("select_sensore").value;
+        caricaAnno(sensore,anno);
+    }
+    
+}
+window.onload=init;
+
+</script>
+
+<script language="JavaScript" type="text/javascript">
+
+function caricaAnno(valore,anno){
+	document.getElementById('divtab').innerHTML="<br><br><div align='center'><img src='ajax_loader.gif' /></div>";
+	myRequest = CreateXmlHttpReq(appendi_anno);
+	myRequest.open("POST","carica_anno_termo.php"); 
+	myRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8"); 
+	myRequest.send("ID_Sensore="+valore+"&Anno="+anno); 
+	myRequest.setRequestHeader("connection", "close"); 
+}
+
+function appendi_anno()
+{
+	if(myRequest.readyState==4 && myRequest.status==200)
+	{
+    var msg = myRequest.responseText.split('##@##');
+    document.getElementById('divtab').innerHTML="";
+    if(document.all)
+     {
+     ie = "<option>opzione</option>" + msg[1];
+     document.getElementById('select_anno').innerHTML=ie;
+     document.getElementById('select_anno').outerHTML = document.getElementById('select_anno').outerHTML;
+     }
+     else
+     	{
+       document.getElementById('select_anno').innerHTML=msg[1];
+      }
+     }
+}
+
+
+
+</script>
+ </div>
+</center>
+
+
+</body></html>
