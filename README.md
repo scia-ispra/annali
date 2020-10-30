@@ -6,7 +6,7 @@ Dalla [pagina](http://centrofunzionale.regione.campania.it/#/pages/sensori/archi
 
 Le stazioni che figurano negli Annali e che hanno dati nel periodo 2000-2020 sono [qui](./annali.md) riportate. Con queste stazioni potenzialmente si possono calcolare i valori climatologici per il periodo 1991-2020.
 
-L'elenco dei sensori per il periodo 2000-2020 e' invece riportato in [questa](./sensoriTemperatura.md) pagina per la temperatura e in [questa](/sensoriPrecipitazione.md) per la precipitazione.
+L'elenco dei sensori di temperatura e precipitazione per il periodo 2000-2020 e' riportato in [questa](./sensori.md).
 
 Questo repository contiene:
 
