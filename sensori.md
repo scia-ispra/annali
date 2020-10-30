@@ -1,3 +1,7 @@
+## Sensori di temperatura e precipitazione
+
+Fonte dati [Centro Funzionale Multirischi](http://centrofunzionale.regione.campania.it), dati giornalieri.
+
 | nome                                | idPrecipitazione | idTemperatura |
 |-------------------------------------|------------------|---------------|
 | Agerola                             | 21767            | NA            |
