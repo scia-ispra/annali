@@ -1,0 +1,134 @@
+<html><script>try {
+                        Object.defineProperty(screen, "availTop", { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availLeft", { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availWidth", { value: 1920 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availHeight", { value: 1006 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "colorDepth", { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "pixelDepth", { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "hardwareConcurrency", { value: 8 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "appVersion", { value: "5.0 (X11)" });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "doNotTrack", { value: "unspecified" });
+                    } catch (e) {}
+                    
+            try {
+                window.screenY = 76
+            } catch (e) { }
+        
+            try {
+                window.screenTop = 76
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerHeight = 843
+            } catch (e) { }
+        
+            try {
+                window.screenX = 526
+            } catch (e) { }
+        
+            try {
+                window.screenLeft = 526
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerWidth = 1352
+            } catch (e) { }
+        </script><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Valori Pluviometrici</title>
+<script type="text/javascript" src="Valori%20Pluviometrici_files/ajax.js"></script> 
+<link rel="stylesheet" type="text/css" href="Valori%20Pluviometrici_files/table.css">
+<link rel="stylesheet" type="text/css" href="Valori%20Pluviometrici_files/bootstrap.css">
+
+</head>
+
+<body cz-shortcut-listen="true">
+<center>	
+
+<div id="divframe" style="padding-top: 0 !important">	
+
+<h4>Estrazione altezze di precipitazione (mm)</h4>
+
+
+<form action="" method="post" id="form" name="form">
+	
+Stazioni Pluviometriche: <select size="1" id="select_sensore" name="ID_Sensore" onchange="caricaAnno(this.value)">
+	 <option value="00" selected="selected">Stazione...</option> <option value="21767">Agerola</option><option value="36428">Agerola METEO-1</option><option value="36440">Agerola METEO-2</option><option value="37374">Ailano</option><option value="36570">Albanella</option><option value="36572">Albanella Calore</option><option value="40114">Alfano</option><option value="18385">Alife</option><option value="21742">Altavilla Irpina</option><option value="17259">Alvignano</option><option value="21753">Amalfi</option><option value="51667">Amalfi-Pogerola</option><option value="21770">Ariano Irpino</option><option value="36478">Ariano Irpino METEO-1</option><option value="36490">Ariano Irpino METEO-2</option><option value="18895">Arienzo</option><option value="12267">Auletta</option><option value="20909">Avella</option><option value="20889">Avellino-Genio Civile</option><option value="38525">Avigliano</option><option value="18398">Bagnoli Irpino</option><option value="21774">Baronissi</option><option value="17411">Battipaglia</option><option value="21725">Bella-S.Antonio Casalini</option><option value="12309">Bellosguardo</option><option value="12251">Benevento</option><option value="36453">Benevento METEO-1</option><option value="36465">Benevento METEO-2</option><option value="17262">Boiara</option><option value="12270">Boville Ernica</option><option value="38443">Bracigliano</option><option value="18947">Caiazzo</option><option value="51711">Campora</option><option value="36580">Capaccio</option><option value="18408">Caposele</option><option value="18919">Capri</option><option value="37534">Capua</option><option value="51687">Casaletto Spartano-Melette Sorgente</option><option value="18945">Caserta Vecchia</option><option value="36576">Cassano Irpino</option><option value="51714">Castel S.Lorenzo</option><option value="20881">Castel Volturno</option><option value="21785">Castelfranco in Miscano</option><option value="12273">Castelluccio</option><option value="51671">Castelnuovo Cilento-Vallo Scalo</option><option value="21778">Castiglione del Genovesi</option><option value="51643">Cava Casa Riceri</option><option value="18917">Cava dei Tirreni</option><option value="36309">Cellole METEO-1</option><option value="36322">Cellole METEO-2</option><option value="51699">Ceraso-Isca Vivaio Forestale</option><option value="18897">Cervinara</option><option value="21764">Cetara</option><option value="51651">Cetara (Serbatoio comunale)</option><option value="15279">Cetronico</option><option value="37539">Cicciano</option><option value="20897">Colle Sannita</option><option value="21521">Cologna</option><option value="17255">Contursi Meteo</option><option value="36339">Conza della Campania METEO-1</option><option value="36352">Conza della Campania METEO-2</option><option value="18923">Corbara-S.Egidio M.</option><option value="51695">Corleto Monforte-Savuco-Serra Nuda</option><option value="36911">Costa dei Corvi</option><option value="20893">Cusano Mutri</option><option value="21760">Ercolano</option><option value="18939">Forino</option><option value="21436">Forli' del Sannio</option><option value="21440">Fornelli</option><option value="18964">Giffoni Valle Piana</option><option value="38533">Gioi Cilento</option><option value="21789">Gragnano</option><option value="12243">Grazzanise</option><option value="33430">Ischia - Forio</option><option value="18955">Ischia - Monte Epomeo</option><option value="33433">Ischia - Piano Liguori</option><option value="33436">Ischia - Porto</option><option value="21448">Isernia</option><option value="40341">Lago Patria METEO-1</option><option value="40353">Lago Patria METEO-2</option><option value="51703">Laurino-Villa Littorio</option><option value="37720">Letino</option><option value="18927">Lettere</option><option value="18889">Liberi</option><option value="20901">Luogosano</option><option value="21750">Maiori</option><option value="18921">Massa Lubrense</option><option value="37530">Melito Irpino</option><option value="17399">Melizzano</option><option value="17406">Mercato S.Severino</option><option value="18937">Mercogliano</option><option value="36905">Moiano</option><option value="37291">Montecorvino Rovella</option><option value="18931">Monteforte Irpino</option><option value="12255">Montella</option><option value="37448">Montella METEO-1</option><option value="37460">Montella METEO-2</option><option value="12276">Montemarano</option><option value="36938">Montesano Marcellana METEO-1</option><option value="36951">Montesano Marcellana METEO-2</option><option value="38542">Montesano Terme</option><option value="37714">Morcone</option><option value="40111">Morigerati</option><option value="37286">Morigerati Bussento</option><option value="36881">Mugnano del Cardinale</option><option value="38540">Muro Lucano</option><option value="18891">Napoli Camaldoli</option><option value="18949">Napoli Capodimonte</option><option value="36128">Nisida METEO-1</option><option value="36224">Nisida METEO-2</option><option value="37384">Omignano Scalo</option><option value="18901">Ottaviano</option><option value="12263">Paduli</option><option value="36914">Pago Veiano</option><option value="37261">Palma Campania</option><option value="18925">Pellezzano</option><option value="51707">Perito-Ostigliano</option><option value="12247">Persano Sele</option><option value="15280">Piani di Prato</option><option value="18887">Pietramelara</option><option value="20905">Pietrastornina</option><option value="18935">Pimonte</option><option value="38977">Pizzolano</option><option value="17266">Pompei</option><option value="12298">Ponte Camerelle</option><option value="20912">Ponte Valentino</option><option value="21364">Ponte Venticinque Archi</option><option value="21530">Pontecagnano</option><option value="21781">Pontelatone</option><option value="37717">Positano</option><option value="36545">Postiglione METEO-1</option><option value="36558">Postiglione METEO-2</option><option value="18953">Pozzuoli</option><option value="21452">Quattroventi</option><option value="15282">Quindici</option><option value="38485">Quindici Torre Vecchia</option><option value="21756">Ravello</option><option value="51659">Ravello-Sambuco</option><option value="36924">Rocca d'Evandro</option><option value="38784">Rocca d'Evandro METEO-1</option><option value="38796">Rocca d'Evandro METEO-2</option><option value="36896">Roccadaspide</option><option value="51675">Roccagloriosa</option><option value="21792">Roccamonfina</option><option value="37283">Rocchetta</option><option value="38528">Rofrano</option><option value="51691">Rofrano-Fistole Faraone</option><option value="18893">Rotondi</option><option value="18899">S.Agata dei Goti</option><option value="36920">S.Agata dei Goti Isclero</option><option value="20885">S.Ambrogio</option><option value="17272">S.Angelo d'Alife</option><option value="20922">S.Angelo Theodice</option><option value="36246">S.Bartolomeo in Galdo METEO-1</option><option value="36262">S.Bartolomeo in Galdo METEO-2</option><option value="21520">S.Castrese</option><option value="18770">S.Felice a Cancello</option><option value="38667">S.Marco Evangelista METEO-1</option><option value="38679">S.Marco Evangelista METEO-2</option><option value="36899">S.Maria a Vico</option><option value="18905">S.Martino Valle Caudina</option><option value="36887">S.Marzano Sarno</option><option value="12294">S.Mauro</option><option value="38545">S.Mauro la Bruca</option><option value="12290">S.Pietro</option><option value="38595">S.Salvatore Telesino METEO-1</option><option value="38608">S.Salvatore Telesino METEO-2</option><option value="36908">Sala Consilina</option><option value="37378">Sala Consilina Tanagro</option><option value="18957">Salerno Genio Civile</option><option value="18951">Salerno Giovi</option><option value="36403">Salerno METEO-1</option><option value="36415">Salerno METEO-2</option><option value="38496">Sanza</option><option value="51679">Sapri Timpone</option><option value="15276">Sarno</option><option value="38445">Sarno (Acqued. Campano)</option><option value="45079">Scala - Pontone</option><option value="51663">Scala-S.Caterina</option><option value="12286">Senerchia</option><option value="21746">Serino</option><option value="36891">Sicignano</option><option value="51683">Silla Sassano</option><option value="18933">Solofra</option><option value="21519">Sora</option><option value="18393">Sorgenti Grassano</option><option value="21739">Sorrento</option><option value="38530">Torchiara</option><option value="38548">Torraca</option><option value="18929">Torre del Greco</option><option value="36275">Torre Orsaia METEO-1</option><option value="36288">Torre Orsaia METEO-2</option><option value="15285">Torriello</option><option value="21735">Tramonti</option><option value="51655">Tramonti Chiunzi</option><option value="37294">Vallo della Lucania</option><option value="12307">Vietri</option><option value="51647">Vietri sul mare-Albori</option><option value="51638">Vietri sul mare-Dragonea</option><option value="18903">Visciano</option></select>
+	 	Anno: <select id="select_anno" size="1" name="Anno"></select>
+
+<input type="Submit" value="Cerca">
+
+<div id="divtab"></div>
+</form>
+
+
+<script>
+
+function init() 
+{
+    anno = "";
+    if(document.getElementById("select_sensore").value != null) {
+        sensore = document.getElementById("select_sensore").value;
+        caricaAnno(sensore,anno);
+    }
+    
+}
+window.onload=init;
+
+</script>
+
+<script language="JavaScript" type="text/javascript">
+	
+function caricaAnno(valore,anno){
+	document.getElementById('divtab').innerHTML="<br><br><div align='center'><img src='ajax_loader.gif'/></div>";
+	myRequest = CreateXmlHttpReq(appendi_anno);
+	myRequest.open("POST","carica_anno_pluvio.php"); 
+	myRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8"); 
+	myRequest.send("ID_Sensore="+valore+"&Anno="+anno); 
+	myRequest.setRequestHeader("connection", "close"); 
+}
+
+function appendi_anno()
+{
+	if(myRequest.readyState==4 && myRequest.status==200)
+	{
+    document.getElementById('divtab').innerHTML="";		
+		var msg = myRequest.responseText.split('##@##');
+    document.getElementById('divtab').innerHTML="";
+    if(document.all)
+     {
+     ie = "<option>opzione</option>" + msg[1];
+     document.getElementById('select_anno').innerHTML=ie;
+     document.getElementById('select_anno').outerHTML = document.getElementById('select_anno').outerHTML;
+     }
+     else
+     	{
+       document.getElementById('select_anno').innerHTML=msg[1];
+      }
+     }
+}
+
+  </script>
+   </div>
+</center>
+  
+
+
+</body></html>
