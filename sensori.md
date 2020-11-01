@@ -2,6 +2,8 @@
 
 Fonte dati [Centro Funzionale Multirischi](http://centrofunzionale.regione.campania.it), dati giornalieri.
 
+[Mappa dei sensori](http://centrofunzionale.regione.campania.it/#/pages/sensori/mappa-stazioni)
+
 | nome                                | idPrecipitazione | idTemperatura |
 |-------------------------------------|------------------|---------------|
 | Agerola                             | 21767            | NA            |
