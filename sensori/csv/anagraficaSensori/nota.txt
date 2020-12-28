@@ -1,0 +1,13 @@
+Il file reg.campania.sensori.info.txt e' l'anagrafica che contiene nomi e coordinate dei sensori di precipitazione e temperatura.
+
+98 stazioni hanno in comune coordinate e nome (il nome puo' differire di poco, di solito le stazioni con sensore di temperatura contengono il termine "Termo").
+
+102 stazioni hanno solo il sensore della precipitazione.
+
+L'id che la regione Campania assegna ai sensori di temperatura differisce da quello associato ai sensori di precipitazione, anche se il nome della stazione e le coordinate sono le stesse.
+Gli id originali sono riportati in anagrafica sotto la voce idSensorePrec e idSensoreTemp.
+
+Le coordinate dei sensori di temperatura e di precipitazione differiscono di meno di 100 metri (si veda la colonna distanzakm). Per comodita' nell'anagrafica si sono utilizzate le coordinate di un solo sensore (le distanze tra sensori sono veramente minime e dove differiscono da zero sono probabilmente frutto di arrotondamenti diversi nelle coordinate).
+
+La quota delle stazioni e' stata ricavata dal dem GLOBE.
+
