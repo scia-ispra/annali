@@ -1,0 +1,905 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "properties": {
+        "mm": 12,
+        "SiteID": 10,
+        "climatologico": 3.0637,
+        "SiteName": "Avellino-genio civile",
+        "Elevation_dem": 360.8622,
+        "nomeTemp": "Avellino-genio civile",
+        "idSensoreTemp": 20890,
+        "nomePrec": "Avellino-genio civile",
+        "idSensorePrec": 20889,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.7833, 40.9119]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "mm": 12,
+        "SiteID": 11,
+        "climatologico": 3.7258,
+        "SiteName": "Bagnoli irpino",
+        "Elevation_dem": 893.6031,
+        "nomeTemp": "Bagnoli irpino",
+        "idSensoreTemp": 18401,
+        "nomePrec": "Bagnoli irpino",
+        "idSensorePrec": 18398,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.0744, 40.8272]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "mm": 12,
+        "SiteID": 12,
+        "climatologico": 7.0639,
+        "SiteName": "Battipaglia",
+        "Elevation_dem": 69.5071,
+        "nomeTemp": "Battipaglia",
+        "idSensoreTemp": 17417,
+        "nomePrec": "Battipaglia",
+        "idSensorePrec": 17411,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.9756, 40.6111]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "mm": 12,
+        "SiteID": 14,
+        "climatologico": 2.4421,
+        "SiteName": "Benevento",
+        "Elevation_dem": 117.5702,
+        "nomeTemp": "Benevento",
+        "idSensoreTemp": 12250,
+        "nomePrec": "Benevento",
+        "idSensorePrec": 12251,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.7622, 41.1419]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "mm": 12,
+        "SiteID": 17,
+        "climatologico": 3.0771,
+        "SiteName": "Boiara",
+        "Elevation_dem": 722.987,
+        "nomeTemp": "Boiara",
+        "idSensoreTemp": 17263,
+        "nomePrec": "Boiara",
+        "idSensorePrec": 17262,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.2428, 40.8414]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "mm": 12,
+        "SiteID": 18,
+        "climatologico": 3.9151,
+        "SiteName": "Boville ernica",
+        "Elevation_dem": 437.1869,
+        "nomeTemp": "Boville ernica",
+        "idSensoreTemp": 12269,
+        "nomePrec": "Boville ernica",
+        "idSensorePrec": 12270,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.4775, 41.6522]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "mm": 12,
+        "SiteID": 20,
+        "climatologico": 3.024,
+        "SiteName": "Caposele",
+        "Elevation_dem": 496.4669,
+        "nomeTemp": "Caposele",
+        "idSensoreTemp": 18411,
+        "nomePrec": "Caposele",
+        "idSensorePrec": 18408,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.2208, 40.8161]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "mm": 12,
+        "SiteID": 22,
+        "climatologico": 2.3895,
+        "SiteName": "Castelfranco in miscano",
+        "Elevation_dem": 767.5533,
+        "nomeTemp": "Castelfranco in miscano",
+        "idSensoreTemp": 21786,
+        "nomePrec": "Castelfranco in miscano",
+        "idSensorePrec": 21785,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.0881, 41.2994]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "mm": 12,
+        "SiteID": 23,
+        "climatologico": 4.9599,
+        "SiteName": "Castelluccio",
+        "Elevation_dem": 283.8473,
+        "nomeTemp": "Castelluccio",
+        "idSensoreTemp": 12272,
+        "nomePrec": "Castelluccio",
+        "idSensorePrec": 12273,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.3378, 40.5817]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "mm": 12,
+        "SiteID": 28,
+        "climatologico": 1.8679,
+        "SiteName": "Cusano mutri",
+        "Elevation_dem": 379.9885,
+        "nomeTemp": "Cusano mutri",
+        "idSensoreTemp": 20894,
+        "nomePrec": "Cusano mutri",
+        "idSensorePrec": 20893,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.5206, 41.3275]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "mm": 12,
+        "SiteID": 29,
+        "climatologico": 7.5557,
+        "SiteName": "Ercolano",
+        "Elevation_dem": 187.3149,
+        "nomeTemp": "Ercolano",
+        "idSensoreTemp": 21761,
+        "nomePrec": "Ercolano",
+        "idSensorePrec": 21760,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.3722, 40.8256]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "mm": 12,
+        "SiteID": 3,
+        "climatologico": 3.4641,
+        "SiteName": "Alife",
+        "Elevation_dem": 133.5565,
+        "nomeTemp": "Alife",
+        "idSensoreTemp": 18387,
+        "nomePrec": "Alife",
+        "idSensorePrec": 18385,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.3336, 41.3392]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "mm": 12,
+        "SiteID": 30,
+        "climatologico": 1.029,
+        "SiteName": "Forli' del sannio",
+        "Elevation_dem": 576.2501,
+        "nomeTemp": "Forli' del sannio",
+        "idSensoreTemp": 21437,
+        "nomePrec": "Forli' del sannio",
+        "idSensorePrec": 21436,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.1856, 41.6919]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "mm": 12,
+        "SiteID": 31,
+        "climatologico": 3.2192,
+        "SiteName": "Fornelli",
+        "Elevation_dem": 575.535,
+        "nomeTemp": "Fornelli",
+        "idSensoreTemp": 21441,
+        "nomePrec": "Fornelli",
+        "idSensorePrec": 21440,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.1331, 41.6231]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "mm": 12,
+        "SiteID": 32,
+        "climatologico": 4.3998,
+        "SiteName": "Gioi cilento",
+        "Elevation_dem": 767.158,
+        "nomeTemp": "Gioi cilento",
+        "idSensoreTemp": 38534,
+        "nomePrec": "Gioi cilento",
+        "idSensorePrec": 38533,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.2261, 40.2911]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "mm": 12,
+        "SiteID": 33,
+        "climatologico": 5.8514,
+        "SiteName": "Grazzanise",
+        "Elevation_dem": 12.9779,
+        "nomeTemp": "Grazzanise",
+        "idSensoreTemp": 12242,
+        "nomePrec": "Grazzanise",
+        "idSensorePrec": 12243,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.1053, 41.0925]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "properties": {
+        "mm": 12,
+        "SiteID": 34,
+        "climatologico": 0.4899,
+        "SiteName": "Isernia",
+        "Elevation_dem": 471.8322,
+        "nomeTemp": "Isernia",
+        "idSensoreTemp": 21449,
+        "nomePrec": "Isernia",
+        "idSensorePrec": 21448,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2519, 41.61]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "properties": {
+        "mm": 12,
+        "SiteID": 38,
+        "climatologico": 3.2852,
+        "SiteName": "Luogosano",
+        "Elevation_dem": 372.9259,
+        "nomeTemp": "Luogosano",
+        "idSensoreTemp": 20902,
+        "nomePrec": "Luogosano",
+        "idSensorePrec": 20901,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.0031, 40.9839]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "properties": {
+        "mm": 12,
+        "SiteID": 39,
+        "climatologico": 4.5226,
+        "SiteName": "Melizzano",
+        "Elevation_dem": 193.6261,
+        "nomeTemp": "Melizzano",
+        "idSensoreTemp": 17402,
+        "nomePrec": "Melizzano",
+        "idSensorePrec": 17399,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.5053, 41.1672]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "properties": {
+        "mm": 12,
+        "SiteID": 4,
+        "climatologico": 2.8043,
+        "SiteName": "Altavilla irpina",
+        "Elevation_dem": 402.1649,
+        "nomeTemp": "Altavilla irpina",
+        "idSensoreTemp": 21743,
+        "nomePrec": "Altavilla irpina",
+        "idSensorePrec": 21742,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.7836, 41.0061]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "properties": {
+        "mm": 12,
+        "SiteID": 40,
+        "climatologico": 4.5686,
+        "SiteName": "Mercato s.severino",
+        "Elevation_dem": 141.7494,
+        "nomeTemp": "Mercato s.severino",
+        "idSensoreTemp": 17409,
+        "nomePrec": "Mercato s.severino",
+        "idSensorePrec": 17406,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.7528, 40.7783]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "properties": {
+        "mm": 12,
+        "SiteID": 43,
+        "climatologico": 0.3764,
+        "SiteName": "Montella",
+        "Elevation_dem": 499.6352,
+        "nomeTemp": "Montella",
+        "idSensoreTemp": 12254,
+        "nomePrec": "Montella",
+        "idSensorePrec": 12255,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.0503, 40.8478]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "properties": {
+        "mm": 12,
+        "SiteID": 46,
+        "climatologico": 2.9557,
+        "SiteName": "Montemarano",
+        "Elevation_dem": 815.4692,
+        "nomeTemp": "Montemarano",
+        "idSensoreTemp": 12275,
+        "nomePrec": "Montemarano",
+        "idSensorePrec": 12276,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.0036, 40.9142]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "properties": {
+        "mm": 12,
+        "SiteID": 49,
+        "climatologico": 2.3966,
+        "SiteName": "Montesano terme",
+        "Elevation_dem": 776.3768,
+        "nomeTemp": "Montesano terme",
+        "idSensoreTemp": 38543,
+        "nomePrec": "Montesano terme",
+        "idSensorePrec": 38542,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.7039, 40.2792]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "properties": {
+        "mm": 12,
+        "SiteID": 5,
+        "climatologico": 5.0613,
+        "SiteName": "Alvignano",
+        "Elevation_dem": 170.3599,
+        "nomeTemp": "Alvignano",
+        "idSensoreTemp": 17260,
+        "nomePrec": "Alvignano",
+        "idSensorePrec": 17259,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.3944, 41.2181]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "properties": {
+        "mm": 12,
+        "SiteID": 54,
+        "climatologico": 2.3922,
+        "SiteName": "Paduli",
+        "Elevation_dem": 139.4527,
+        "nomeTemp": "Paduli",
+        "idSensoreTemp": 12262,
+        "nomePrec": "Paduli",
+        "idSensorePrec": 12263,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.8347, 41.1481]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "properties": {
+        "mm": 12,
+        "SiteID": 56,
+        "climatologico": 6.3133,
+        "SiteName": "Persano sele",
+        "Elevation_dem": 20.1688,
+        "nomeTemp": "Persano sele",
+        "idSensoreTemp": 12246,
+        "nomePrec": "Persano sele",
+        "idSensorePrec": 12247,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.0325, 40.5442]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "properties": {
+        "mm": 12,
+        "SiteID": 57,
+        "climatologico": 4.5839,
+        "SiteName": "Pietrastornina",
+        "Elevation_dem": 428.0416,
+        "nomeTemp": "Pietrastornina",
+        "idSensoreTemp": 20906,
+        "nomePrec": "Pietrastornina",
+        "idSensorePrec": 20905,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.7342, 40.9925]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "properties": {
+        "mm": 12,
+        "SiteID": 59,
+        "climatologico": 4.4001,
+        "SiteName": "Pompei",
+        "Elevation_dem": 25.2411,
+        "nomeTemp": "Pompei",
+        "idSensoreTemp": 17267,
+        "nomePrec": "Pompei",
+        "idSensorePrec": 17266,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.4925, 40.7567]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "properties": {
+        "mm": 12,
+        "SiteID": 6,
+        "climatologico": 3.6761,
+        "SiteName": "Ariano irpino",
+        "Elevation_dem": 656.5786,
+        "nomeTemp": "Ariano irpino",
+        "idSensoreTemp": 21771,
+        "nomePrec": "Ariano irpino",
+        "idSensorePrec": 21770,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.0853, 41.1483]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "properties": {
+        "mm": 12,
+        "SiteID": 60,
+        "climatologico": 5.6453,
+        "SiteName": "Pontelatone",
+        "Elevation_dem": 233.788,
+        "nomeTemp": "Pontelatone",
+        "idSensoreTemp": 21782,
+        "nomePrec": "Pontelatone",
+        "idSensorePrec": 21781,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2417, 41.2042]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "properties": {
+        "mm": 12,
+        "SiteID": 64,
+        "climatologico": 6.7772,
+        "SiteName": "Ravello",
+        "Elevation_dem": 356.9458,
+        "nomeTemp": "Ravello",
+        "idSensoreTemp": 21757,
+        "nomePrec": "Ravello",
+        "idSensorePrec": 21756,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.6144, 40.6567]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "properties": {
+        "mm": 12,
+        "SiteID": 68,
+        "climatologico": 3.037,
+        "SiteName": "Roccamonfina",
+        "Elevation_dem": 562.8884,
+        "nomeTemp": "Roccamonfina",
+        "idSensoreTemp": 22717,
+        "nomePrec": "Roccamonfina",
+        "idSensorePrec": 21792,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.9681, 41.2769]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "properties": {
+        "mm": 12,
+        "SiteID": 70,
+        "climatologico": 2.803,
+        "SiteName": "S.angelo d'alife",
+        "Elevation_dem": 135.6263,
+        "nomeTemp": "S.angelo d'alife",
+        "idSensoreTemp": 17273,
+        "nomePrec": "S.angelo d'alife",
+        "idSensorePrec": 17272,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2364, 41.3533]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "properties": {
+        "mm": 12,
+        "SiteID": 76,
+        "climatologico": 7.5472,
+        "SiteName": "S.mauro",
+        "Elevation_dem": 40.6467,
+        "nomeTemp": "S.mauro",
+        "idSensoreTemp": 12295,
+        "nomePrec": "S.mauro",
+        "idSensorePrec": 12294,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.6322, 40.7639]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "properties": {
+        "mm": 12,
+        "SiteID": 77,
+        "climatologico": 4.231,
+        "SiteName": "S.pietro",
+        "Elevation_dem": 204.2464,
+        "nomeTemp": "S.pietro",
+        "idSensoreTemp": 12291,
+        "nomePrec": "S.pietro",
+        "idSensorePrec": 12290,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.7869, 40.8183]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "properties": {
+        "mm": 12,
+        "SiteID": 84,
+        "climatologico": 5.0054,
+        "SiteName": "Senerchia",
+        "Elevation_dem": 613.1247,
+        "nomeTemp": "Senerchia",
+        "idSensoreTemp": 12287,
+        "nomePrec": "Senerchia",
+        "idSensorePrec": 12286,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.2056, 40.7386]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "properties": {
+        "mm": 12,
+        "SiteID": 85,
+        "climatologico": 1.9759,
+        "SiteName": "Serino",
+        "Elevation_dem": 345.9355,
+        "nomeTemp": "Serino",
+        "idSensoreTemp": 21747,
+        "nomePrec": "Serino",
+        "idSensorePrec": 21746,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.8444, 40.8911]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "properties": {
+        "mm": 12,
+        "SiteID": 86,
+        "climatologico": 2.7695,
+        "SiteName": "Sora",
+        "Elevation_dem": 310.9886,
+        "nomeTemp": "Sora",
+        "idSensoreTemp": 21797,
+        "nomePrec": "Sora",
+        "idSensorePrec": 21519,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.6194, 41.7222]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "properties": {
+        "mm": 12,
+        "SiteID": 87,
+        "climatologico": 4.1884,
+        "SiteName": "Sorgenti grassano",
+        "Elevation_dem": 76.7889,
+        "nomeTemp": "Sorgenti grassano",
+        "idSensoreTemp": 18395,
+        "nomePrec": "Sorgenti grassano",
+        "idSensorePrec": 18393,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.5017, 41.2219]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "properties": {
+        "mm": 12,
+        "SiteID": 9,
+        "climatologico": 2.6623,
+        "SiteName": "Auletta",
+        "Elevation_dem": 245.9534,
+        "nomeTemp": "Auletta",
+        "idSensoreTemp": 12266,
+        "nomePrec": "Auletta",
+        "idSensorePrec": 12267,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.4281, 40.5517]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "properties": {
+        "mm": 12,
+        "SiteID": 92,
+        "climatologico": 3.7248,
+        "SiteName": "Torriello",
+        "Elevation_dem": 839.5303,
+        "nomeTemp": "Torriello",
+        "idSensoreTemp": 15286,
+        "nomePrec": "Torriello",
+        "idSensorePrec": 15285,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.6258, 40.8475]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "properties": {
+        "mm": 12,
+        "SiteID": 93,
+        "climatologico": 6.4935,
+        "SiteName": "Tramonti",
+        "Elevation_dem": 412.3242,
+        "nomeTemp": "Tramonti",
+        "idSensoreTemp": 21736,
+        "nomePrec": "Tramonti",
+        "idSensorePrec": 21735,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.6461, 40.7028]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "properties": {
+        "mm": 12,
+        "SiteID": 97,
+        "climatologico": 2.689,
+        "SiteName": "Colle sannita",
+        "Elevation_dem": 732.5138,
+        "nomeTemp": "Colle sannita",
+        "idSensoreTemp": 20898,
+        "nomePrec": "Colle sannita",
+        "idSensorePrec": 20897,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.8392, 41.3686]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "properties": {
+        "mm": 12,
+        "SiteID": 98,
+        "climatologico": 3.1845,
+        "SiteName": "Contursi meteo",
+        "Elevation_dem": 214.4987,
+        "nomeTemp": "Contursi meteo",
+        "idSensoreTemp": 17256,
+        "nomePrec": "Contursi meteo",
+        "idSensorePrec": 17255,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.2519, 40.6758]
+      }
+    }
+  ]
+} 

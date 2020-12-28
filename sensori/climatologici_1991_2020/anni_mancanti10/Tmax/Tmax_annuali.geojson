@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "properties": {
+        "yy": 2005,
+        "SiteID": 14,
+        "climatologico": 21.5725,
+        "SiteName": "Benevento",
+        "Elevation_dem": 117.5702,
+        "nomeTemp": "Benevento",
+        "idSensoreTemp": 12250,
+        "nomePrec": "Benevento",
+        "idSensorePrec": 12251,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.7622, 41.1419]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "yy": 2005,
+        "SiteID": 23,
+        "climatologico": 20.202,
+        "SiteName": "Castelluccio",
+        "Elevation_dem": 283.8473,
+        "nomeTemp": "Castelluccio",
+        "idSensoreTemp": 12272,
+        "nomePrec": "Castelluccio",
+        "idSensorePrec": 12273,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.3378, 40.5817]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "yy": 2005,
+        "SiteID": 33,
+        "climatologico": 21.6839,
+        "SiteName": "Grazzanise",
+        "Elevation_dem": 12.9779,
+        "nomeTemp": "Grazzanise",
+        "idSensoreTemp": 12242,
+        "nomePrec": "Grazzanise",
+        "idSensorePrec": 12243,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.1053, 41.0925]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "yy": 2005,
+        "SiteID": 46,
+        "climatologico": 16.1495,
+        "SiteName": "Montemarano",
+        "Elevation_dem": 815.4692,
+        "nomeTemp": "Montemarano",
+        "idSensoreTemp": 12275,
+        "nomePrec": "Montemarano",
+        "idSensorePrec": 12276,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.0036, 40.9142]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "yy": 2005,
+        "SiteID": 5,
+        "climatologico": 21.3585,
+        "SiteName": "Alvignano",
+        "Elevation_dem": 170.3599,
+        "nomeTemp": "Alvignano",
+        "idSensoreTemp": 17260,
+        "nomePrec": "Alvignano",
+        "idSensorePrec": 17259,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.3944, 41.2181]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "yy": 2005,
+        "SiteID": 70,
+        "climatologico": 21.9834,
+        "SiteName": "S.angelo d'alife",
+        "Elevation_dem": 135.6263,
+        "nomeTemp": "S.angelo d'alife",
+        "idSensoreTemp": 17273,
+        "nomePrec": "S.angelo d'alife",
+        "idSensorePrec": 17272,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2364, 41.3533]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "yy": 2005,
+        "SiteID": 76,
+        "climatologico": 22.3732,
+        "SiteName": "S.mauro",
+        "Elevation_dem": 40.6467,
+        "nomeTemp": "S.mauro",
+        "idSensoreTemp": 12295,
+        "nomePrec": "S.mauro",
+        "idSensorePrec": 12294,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.6322, 40.7639]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "yy": 2005,
+        "SiteID": 77,
+        "climatologico": 21.4212,
+        "SiteName": "S.pietro",
+        "Elevation_dem": 204.2464,
+        "nomeTemp": "S.pietro",
+        "idSensoreTemp": 12291,
+        "nomePrec": "S.pietro",
+        "idSensorePrec": 12290,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.7869, 40.8183]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "yy": 2005,
+        "SiteID": 9,
+        "climatologico": 21.9554,
+        "SiteName": "Auletta",
+        "Elevation_dem": 245.9534,
+        "nomeTemp": "Auletta",
+        "idSensoreTemp": 12266,
+        "nomePrec": "Auletta",
+        "idSensorePrec": 12267,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.4281, 40.5517]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "yy": 2005,
+        "SiteID": 92,
+        "climatologico": 15.0242,
+        "SiteName": "Torriello",
+        "Elevation_dem": 839.5303,
+        "nomeTemp": "Torriello",
+        "idSensoreTemp": 15286,
+        "nomePrec": "Torriello",
+        "idSensorePrec": 15285,
+        "distanzakm_sensoreTemp_sensorePrec": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.6258, 40.8475]
+      }
+    }
+  ]
+} 
