@@ -2,7 +2,8 @@ rm(list=objects())
 library("RSelenium")
 library("tidyverse")
 library("rvest")
-ANNI<-2000:2020
+library("read.so")
+ANNI<-2020:2020
 
 "http://centrofunzionale.regione.campania.it/regionecampania/centrofunzionale/archiviosensori/pluvio.php"->myurl
 
@@ -12,14 +13,14 @@ calendario<-tibble(yymmdd=seq.Date(from=as.Date("2000-01-01"),to=as.Date("2020-1
   separate(yymmdd,into=c("yy","mm","dd"),sep="-") %>%
   dplyr::select(yy,mm,dd)
 
-RSelenium::rsDriver(port =4568L,version = "3.141.59",verbose=TRUE, browser = c("firefox"),check=F)->mydrv
+RSelenium::rsDriver(port =4570L,version = "3.141.59",verbose=TRUE, browser = c("firefox"),check=F)->mydrv
 mydrv[["client"]]->remDr
 remDr$navigate(myurl)
 
-read_delim("sensori.csv",delim=",",col_names = TRUE) %>%
-  filter(!is.na(idPrecipitazione))->sensori
+read.md("sensori.md") %>%
+  filter(!is.na(idSensorePrec))->sensori
 
-purrr::walk(sensori$idPrecipitazione,.f=function(.id){
+purrr::walk(sensori$idSensorePrec,.f=function(.id){
 
 remDr$findElement("id","select_sensore")
 xpathSensore<-glue::glue("//*/option[@value = '{.id}']")
@@ -70,6 +71,6 @@ remDr$findElement("id","select_anno")
     
     full_join(calendario,df)->df
     
-    write_delim(df %>%dplyr::select(yy,mm,dd,matches("Prec.+")),path=glue::glue("./Prec/{.id}.csv"),delim=";",col_names=TRUE)
+    write_delim(df %>%dplyr::select(yy,mm,dd,matches("Prec.+")),file=glue::glue("./Prec/{.id}.csv"),delim=";",col_names=TRUE)
 
 }) #su sensore

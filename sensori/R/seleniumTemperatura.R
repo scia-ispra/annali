@@ -2,7 +2,8 @@ rm(list=objects())
 library("RSelenium")
 library("tidyverse")
 library("rvest")
-ANNI<-2000:2020
+library("read.so")
+ANNI<-2020:2020
 
 "http://centrofunzionale.regione.campania.it/regionecampania/centrofunzionale/archiviosensori/termo.php"->myurl
 
@@ -13,13 +14,13 @@ calendario<-tibble(yymmdd=seq.Date(from=as.Date("2000-01-01"),to=as.Date("2020-1
   separate(yymmdd,into=c("yy","mm","dd"),sep="-") %>%
   dplyr::select(yy,mm,dd)
 
-RSelenium::rsDriver(port =4568L,version = "3.141.59",verbose=TRUE, browser = c("firefox"),check=F)->mydrv
+RSelenium::rsDriver(port =4569L,version = "3.141.59",verbose=TRUE, browser = c("firefox"),check=F)->mydrv
 mydrv[["client"]]->remDr
 remDr$navigate(myurl)
 
-read_delim("sensoriTemperatura.csv",delim=",",col_names = TRUE)->sensori
+read_md("sensori.md")->sensori
 
-purrr::walk(sensori$id,.f=function(.id){
+purrr::walk(sensori$idSensoreTemp,.f=function(.id){
 
 remDr$findElement("id","select_sensore")
 xpathSensore<-glue::glue("//*/option[@value = '{.id}']")
@@ -70,7 +71,7 @@ remDr$findElement("id","select_anno")
     
     full_join(calendario,df)->df
     
-    write_delim(df %>%dplyr::select(yy,mm,dd,matches("Tmax.+")),path=glue::glue("./Tmax/{.id}.csv"),delim=";",col_names=TRUE)
-    write_delim(df %>%dplyr::select(yy,mm,dd,matches("Tmin.+")),path=glue::glue("./Tmin/{.id}.csv"),delim=";",col_names=TRUE)
+    write_delim(df %>%dplyr::select(yy,mm,dd,matches("Tmax.+")),file=glue::glue("./Tmax/{.id}.csv"),delim=";",col_names=TRUE)
+    write_delim(df %>%dplyr::select(yy,mm,dd,matches("Tmin.+")),file=glue::glue("./Tmin/{.id}.csv"),delim=";",col_names=TRUE)
     
 }) #su sensore
